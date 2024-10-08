@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  color: rgba(20, 32, 62, 1);
+  font-size: 18px;
+}
+.active {
+  color: rgb(211, 22, 22);
+}
+.main-title {
+  font-size: 66px;
+  color: rgba(20, 32, 62, 1);
+}
+.description {
+  font-size: 22px;
+  color: rgba(20, 32, 62, 1);
+}
+.article-title {
+  font-size: 22px;
+  color: rgba(20, 32, 62, 1);
+}
+.article-date {
+  font-size: 14px;
+  color: rgba(20, 32, 62, 1);
+}
+.article-card {
+  width: 290px;
+  display: inline-block;
+}
