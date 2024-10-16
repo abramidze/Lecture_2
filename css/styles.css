@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.main {
+  margin: auto;
+  position: relative;
+  width: 1366px;
+  height: 100vh;
+
+  background-image: linear-gradient(
+      90.28deg,
+      rgba(0, 0, 0, 0.8) 0.23%,
+      rgba(0, 0, 0, 0) 99.74%
+    ),
+    url("../images/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 93px 0px 93px;
+}
+header {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+}
+.nav-list a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.42px;
+  color: white;
+}
+
+.registr {
+  display: flex;
+  column-gap: 33px;
+  justify-content: space-between;
+  align-items: center;
+}
+.singin {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.42px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+.singup {
+  width: 100px;
+  height: 48px;
+  border-radius: 18px;
+  padding: 16px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.42px;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+}
+
+.main-info {
+  position: absolute;
+  width: 580px;
+  height: 415px;
+  top: 209px;
+  left: 93px;
+  gap: 0px;
+
+  opacity: 0px;
+}
+.main-title {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+.slogan {
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 100.88px;
+  text-align: left;
+  color: white;
+}
+.main-desc {
+  width: 580px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  margin-bottom: 48px;
+  margin-top: 16px;
+}
+.container {
+  color: white;
+  width: 580px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 21px 16px 22px;
+  backdrop-filter: blur(10px);
+  border-radius: 28px;
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+.location img {
+  margin-right: 16px;
+}
+.location span {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.location h4 {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+.date img {
+  margin-right: 16px;
+}
+.date span {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.date h4 {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.search-btn {
+  width: 65px;
+  height: 65px;
+  border-radius: 18px;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+}
+
+/* destinations */
+.destinations {
+  width: 1366px;
+  height: 100vh;
+  margin: auto;
+}
+.title-dest {
+  width: 388px;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 36px;
+}
+.title-dest h4 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  color: rgba(205, 26, 64, 1);
+}
+.title-dest h3 {
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 75.07px;
+  text-align: center;
+  color: black;
+}
+.cards-dest {
+  margin: auto;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.left-side {
+  position: relative;
+}
+.card-title {
+  position: absolute;
+}
