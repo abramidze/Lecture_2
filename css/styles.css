@@ -194,6 +194,7 @@ header {
   color: rgba(205, 26, 64, 1);
 }
 .title-dest h3 {
+  text-transform: uppercase;
   font-family: Work Sans;
   font-size: 64px;
   font-weight: 200;
@@ -201,22 +202,446 @@ header {
   text-align: center;
   color: black;
 }
-.cards-dest {
-  margin: auto;
+.wrapper {
   width: 1170px;
+  border: 1px solid red;
+  height: 626px;
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
-
-.top-img {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 14px;
-}
-
-.left-side {
+.left {
+  background-image: url(../images/dest_malasia.jpg);
+  width: 580px;
+  height: 626px;
   position: relative;
 }
-.card-title {
+.malaysia-content {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.malaysia-content h3 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  color: #ffffff;
+}
+.malaysia-content a {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 16px 17px;
+  border-radius: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 34px;
+}
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+.dubai-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dubai-content h3 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  color: #ffffff;
+}
+.dubai-content a {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 16px 17px;
+  border-radius: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 8px;
+}
+.dubai {
+  position: relative;
+  background-image: url(../images/dest_dubai.jpg);
+  width: 280px;
+  height: 306px;
+}
+.greece {
+  position: relative;
+  background-image: url(../images/dest_greece.jpg);
+  width: 280px;
+  height: 306px;
+}
+.greece-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.greece-content h3 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  color: #ffffff;
+}
+.greece-content a {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 16px 17px;
+  border-radius: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.right-bottom {
+  position: relative;
+  background-image: url(../images/dest_singapore.jpg);
+  width: 580px;
+  height: 306px;
+  margin-top: 14px;
+}
+.singapore-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.singapore-content h3 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  color: #ffffff;
+}
+.singapore-content a {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 16px 17px;
+  border-radius: 18px;
+  text-align: center;
+  display: inline-block;
+  margin: 8px 19px;
+}
+.btn-container {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-btn {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  width: 122px;
+  height: 54px;
+  border-radius: 18px;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+}
+/* activity */
+.activity {
+  width: 1366px;
+
+  margin: auto;
+  border: 1px solid black;
+}
+.title-activity {
+  width: 780px;
+  height: 237px;
+  border: 2px solid red;
+  margin: auto;
+  margin-bottom: 36px;
+}
+.title-activity h4 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  text-align: center;
+  color: #cd1a40;
+}
+.title-activity h3 {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 75.07px;
+  text-align: center;
+  color: #1e1e1e;
+  margin: 18px 0px 18px 0px;
+}
+.title-activity p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.cards-container {
+  margin: auto;
+  width: 1182px;
+  height: 860px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-1 {
+  width: 378px;
+  color: #fff;
+  height: 412px;
+  border-radius: 6px;
+  padding: 56px 33px 38px 33px;
+  text-align: center;
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+}
+.card-1 h3 {
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.54px;
+  text-align: center;
+  margin: 38px 0px 11px 0px;
+}
+.card-1 p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.card {
+  width: 378px;
+  color: #fff;
+  height: 412px;
+  border-radius: 6px;
+  padding: 56px 33px 38px 33px;
+  text-align: center;
+  background: #fff9f0;
+}
+.card h3 {
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.54px;
+  color: #999999;
+  text-align: center;
+  margin: 38px 0px 11px 0px;
+}
+.card p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+}
+/* packages */
+.packages {
+  width: 1366px;
+  margin: 76px auto;
+  border: 1px solid black;
+}
+.title-packages {
+  width: 780px;
+  height: 237px;
+  border: 2px solid red;
+  margin: auto;
+  margin-bottom: 36px;
+}
+.title-packages h4 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  text-align: center;
+  color: #cd1a40;
+}
+.title-packages h3 {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 75.07px;
+  text-align: center;
+  color: #1e1e1e;
+  margin: 18px 0px 18px 0px;
+}
+.title-packages p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.pack-container {
+  width: 1182px;
+  border: 2px solid reds;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.pack-botton {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px 21px 22px;
+}
+.pack-card {
+  background-color: #fff9f0;
+}
+.pack-descr p {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.15px;
+  text-align: left;
+}
+.pack-descr span {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.77px;
+  text-align: left;
+  color: #1e1e1e;
+  margin-top: 4px;
+}
+.pack-price p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.77px;
+}
+/* photos */
+.photos {
+  width: 1366px;
+  margin: 76px auto;
+  border: 1px solid black;
+}
+.title-photos {
+  width: 780px;
+  height: 237px;
+  border: 2px solid red;
+  margin: auto;
+  margin-bottom: 36px;
+}
+.title-photos h4 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  text-align: center;
+  color: #cd1a40;
+}
+.title-photos h3 {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 75.07px;
+  text-align: center;
+  color: #1e1e1e;
+  margin: 18px 0px 18px 0px;
+}
+.title-photos p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.photos-container {
+  width: 1182px;
+  border: 2px solid reds;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+/* reviews */
+.reviews {
+  width: 1366px;
+  margin: 76px auto;
+  border: 1px solid black;
+}
+.title-reviews {
+  width: 780px;
+  height: 237px;
+  border: 2px solid red;
+  margin: auto;
+  margin-bottom: 36px;
+}
+.title-reviews h4 {
+  font-family: Water Brush;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66.7px;
+  text-align: center;
+  color: #cd1a40;
+}
+.title-reviews h3 {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 75.07px;
+  text-align: center;
+  color: #1e1e1e;
+  margin: 18px 0px 18px 0px;
+}
+.title-reviews p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.review-descr {
+  position: relative;
+  padding: 38px 37px 47px 37px;
+  width: 980px;
+  height: 192px;
+  background-image: url(../images/review-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border: 2px solid red;
+}
+.review-text {
+  width: 906px;
+  height: 107px;
+  color: #ffffff;
+  position: absolute;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
 }
