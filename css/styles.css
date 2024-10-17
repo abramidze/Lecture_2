@@ -356,9 +356,9 @@ header {
 /* activity */
 .activity {
   width: 1366px;
-
   margin: auto;
   border: 1px solid black;
+  margin-top: 36px;
 }
 .title-activity {
   width: 780px;
@@ -644,4 +644,62 @@ header {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+}
+.review-people {
+  width: 873px;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+.customer {
+  width: 293px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-info p {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.15px;
+  text-align: left;
+}
+.customer-info span {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+/* newsletter */
+.newsletter {
+  position: relative;
+  width: 1366px;
+  height: 692px;
+  border: 2px solid red;
+  margin: auto;
+}
+.backgr {
+  width: 1366px;
+  height: 520px;
+  margin-top: 172px;
+  border: 2px solid rgb(8, 11, 194);
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletters_image {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+.newsletters-descr {
+  width: 580px;
+  height: 341px;
 }
