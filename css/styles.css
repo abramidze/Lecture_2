@@ -674,31 +674,3 @@ header {
   line-height: 26px;
   text-align: center;
 }
-/* newsletter */
-.newsletter {
-  width: 1366px;
-  height: 692px;
-  border: 2px solid red;
-  margin: auto;
-}
-.backgr {
-  position: relative;
-  width: 1366px;
-  height: 520px;
-  margin-top: 172px;
-  border: 2px solid rgb(8, 11, 194);
-  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.newsletters_image {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0%, -50%);
-}
-.newsletters-descr {
-  width: 580px;
-  height: 341px;
-}
