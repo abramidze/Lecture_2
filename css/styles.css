@@ -8,7 +8,6 @@ body {
   margin: auto;
   position: relative;
   width: 1366px;
-  height: 100vh;
 
   background-image: linear-gradient(
       90.28deg,
@@ -677,13 +676,13 @@ header {
 }
 /* newsletter */
 .newsletter {
-  position: relative;
   width: 1366px;
   height: 692px;
   border: 2px solid red;
   margin: auto;
 }
 .backgr {
+  position: relative;
   width: 1366px;
   height: 520px;
   margin-top: 172px;
